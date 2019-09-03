@@ -11,19 +11,6 @@ public class Prob6 {
 		
 		int l = 0;
 		
-		/*
-		Arrays.sort(str);
-		
-		for (int i = 0; i < str.length - 1; i++) {
-			
-			if (str[i] == str[i+1]) {
-				str[i] = "";
-				l++;
-			}
-			
-		}
-		*/
-		
 		for(int i = 0; i < str.length - 1; i++) {
 			for(int j = i + 1; j < str.length; j++){
 				if(str[i] == str[j]) {
